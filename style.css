@@ -26,39 +26,39 @@ background-color: #f1f5f7ee;
 }
 
 .main-nav img {
-    width: 120px; /* Adjust logo size if needed */
+    width: 120px; 
 }
 
-/* Search Bar */
+
 .search-bar {
     display: flex;
     align-items: center;
-    gap: 0; /* No space between elements */
+    gap: 0; 
 }
 
 .search-bar input,
 .category-btn,
 .search-btn {
-    height: 40px; /* Ensures equal height */
+    height: 40px; 
     border: 1px solid #ccc;
     font-size: 16px;
 }
 
-/* Search Input */
+
 .search-bar input {
     padding: 10px;
     width: 400px;
     border: 2px solid blue;
-    border-right: none; /* Removes gap */
+    border-right: none; 
     border-radius: 5px 0 0 5px;
     background-color: white;
     
 }
 
-/* Category Button */
+
 .category-btn {
     padding: 0 15px;
-    background-color: white; /* Matches search bar */
+    background-color: white; 
     color: black;
     border: 2px solid blue;
     
@@ -66,17 +66,17 @@ background-color: #f1f5f7ee;
     cursor: pointer;
 }
 
-/* Search Button */
+
 .search-btn {
     padding: 0 15px;
-    background-color: blue; /* Search button color */
+    background-color: blue; 
     color: white;
     border-radius: 0 5px 5px 0;
     cursor: pointer;
     border: 2px solid blue;
 }
 
-/* Navigation List */
+
 .main-nav-list ul {
     padding-right: 100px;
     display: flex;
@@ -89,7 +89,7 @@ background-color: #f1f5f7ee;
     
 }
 
-/* Icons above menu items */
+
 .main-nav-list img {
     width: 20px;
     height: 20px;
@@ -204,7 +204,6 @@ height: 30%;
 border-bottom: 5px solid white;
 border-top: 5px solid white;
 border-radius: 11px;
-/* margin-bottom: 7px; */
 }
 .child3{
 background-color: rgb(64, 253, 196);
