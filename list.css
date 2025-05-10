@@ -339,3 +339,90 @@ h2{
     justify-content: space-between;
     padding: 10px;
 }
+
+/* Media queries */
+
+@media (max-width: 1024px) {
+    .gen-holder {
+        flex-direction: column;
+    }
+
+    .main-holder, .detail-holder {
+        width: 100%;
+    }
+
+    .cart {
+        flex-direction: column;
+    }
+
+    .cart-detail, .cart-payment {
+        width: 100%;
+    }
+
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-bar2 ul {
+        flex-direction: column;
+    }
+
+    .filter {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .coupon {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .checkout button {
+        padding: 10px 30px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .heart-icon {
+        left: auto;
+        right: 10px;
+    }
+
+    .choose-next select {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .cart-in {
+        height: auto;
+    }
+
+    .cart-out {
+        height: auto;
+    }
+
+    .checkout button {
+        font-size: 14px;
+        padding: 8px 20px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .main-holder, .detail-holder {
+        font-size: 14px;
+    }
+}

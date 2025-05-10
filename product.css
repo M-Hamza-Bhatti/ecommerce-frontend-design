@@ -477,3 +477,93 @@
     display:flex;
     gap: 10px;
 }
+
+/* Media queries */
+
+@media screen and (max-width: 768px) {
+    .detail-parent,
+    .main-image2,
+    .desc-main,
+    .icon-grid {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .detail-container {
+      flex-direction: column;
+    }
+  
+    .detail-img-container,
+    .detail-img-container1,
+    .detail-img-container2,
+    .descript-text,
+    .descript-side,
+    .nav4 {
+      width: 100%;
+    }
+  
+    .price-nego3 {
+      width: 100%;
+    }
+  
+    .icon-cart {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
+  
+    .butt {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .down1,
+    .down2 {
+      width: 100%;
+      border-radius: 0;
+      text-align: center;
+      padding: 10px;
+    }
+  }
+  
+  /* Mobile Devices (480px and below) */
+  @media screen and (max-width: 480px) {
+    .main-image2 button,
+    .but-save,
+    .but-back,
+    .send button,
+    .seller button {
+      padding: 8px;
+      font-size: 14px;
+    }
+  
+    .icon-cart2 {
+      flex-direction: column;
+      gap: 5px;
+    }
+  
+    .detail-img2 {
+      width: 100%;
+      height: auto;
+    }
+  
+    .descript .nav-1 {
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+  
+    .icon-image img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .detail-img-container1-box {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .price-nego {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
